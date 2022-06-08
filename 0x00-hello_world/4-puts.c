@@ -1,6 +1,11 @@
 #include<stdio.h>
 
-/* new function*/
+/*
+ *
+ * new function
+ *
+ *multi line function
+ * */
 int main(void)
 
 {
