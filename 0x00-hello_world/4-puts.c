@@ -1,19 +1,14 @@
-#include <stdio.h>
+#include <stdio.h>                                                                                                                                                                                                                                                                    
 
-#include <string.h>
+int main() {                                                                                                                                                                                                                        
 
+		char str1[] = "Programming is like building a multilingual puzzle"                                                           
 
+			                                                    
 
-int main() {
+				puts(str1);                                                                                                          
 
-	 
+		                                                                                                                                      
 
-	  // initializing strings
-	 char str1[] = "Programming is like building a multilingual puzzle"
-	       // writing to stdout
-	 
-	         puts(str1);
-	  
-	           return 0;
-	  
-	   }
+			return 0;                                                                                                          
+                                                                   	}     
