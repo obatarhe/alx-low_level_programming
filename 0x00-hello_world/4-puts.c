@@ -7,5 +7,5 @@ int main(void)
 
 	puts(myStr);
 
-	return 0;
+	return (0);
 }
