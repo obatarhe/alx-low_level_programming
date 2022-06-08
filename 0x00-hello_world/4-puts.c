@@ -1,13 +1,13 @@
 #include<stdio.h>
 
 /**
+ * main - Entry point
  *
- * new function
- *
- *multi line function
- * */
-int main(void)
+ * Return: Always 0 (Success)
+ */
 
+
+int main(void)
 {
 	char myStr[] = "\"Programming is like building a multilingual puzzle";
 	/* the puts function only accept string*/
