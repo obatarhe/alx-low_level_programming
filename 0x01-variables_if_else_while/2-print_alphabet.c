@@ -6,12 +6,12 @@
  * Return: Always 0.
  */
 int main() {
-    // Write C code here
     char alphabet;
+
     for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
     {
         putchar(alphabet);
-        putchar("\n");
+        putchar('\n');
     }
 
     return 0;
