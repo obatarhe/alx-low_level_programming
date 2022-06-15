@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main -  prints 10 times the alphabet, in lowercase
+ *main - prints 10 times the alphabet, in lowercase
  *
  *print 10x
- * Return: void
+ *Return: void
  */
+
 void print_alphabet_x10(void)
 {
 	int round = 0;
