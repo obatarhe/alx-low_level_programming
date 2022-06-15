@@ -3,6 +3,7 @@
 /**
  * main -  prints 10 times the alphabet, in lowercase
  *
+ *print 10x
  * Return: void
  */
 void print_alphabet_x10(void)
