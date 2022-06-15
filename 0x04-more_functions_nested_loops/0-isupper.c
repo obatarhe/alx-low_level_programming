@@ -2,14 +2,23 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of a randomly generated number
- *        and whether it is greater than 5, less than 6, or 0.
- *
- * Return: Always 0.
+ * _isupper - function that checks for uppercase character.
+ * @c: An input character
+ * Return: 1 if c is uppercase or 0 
  */
- 
- int _isupper(int c)
+int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
+	char uppercase = 'A';
+	int isupper = 0;
+
+	for (; uppercase <= 'Z'; uppercase++)
 	{
+		if (c == uppercase)
+		{
+			isupper = 1;
+			break;
+		}
+	}
+
+	return (isupper);
 }
