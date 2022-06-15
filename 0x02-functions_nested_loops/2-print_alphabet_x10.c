@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 
 	while (round < 10)
 	{
-		letter = 'a';
+		let = 'a';
 		while (let <= 'z')
 		{
 			_putchar(let);
