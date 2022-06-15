@@ -1,12 +1,10 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code 
- *
- * Return: Always 0.
+ * _strcat - concatenates two strings,
+ * @dest: destination.
+ * @src: source.
+ * Return: the pointer to dest.
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int count = 0, count2 = 0;
