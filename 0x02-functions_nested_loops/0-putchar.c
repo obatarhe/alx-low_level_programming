@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
-* prints _putchar, followed by a new line.
-* The program should return 0
+* prints _putchar.
 *
 * Return: Always 0.
-* print _putchar
 */
 
 int main(void)
