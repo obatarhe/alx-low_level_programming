@@ -1,19 +1,24 @@
 #include "main.h"
 
 /**
- * function that reverses the content of an array of integers.
- * Do not print 2 and 4.
- * followed by a new line.
- * Return: Always 0
+ * reverse_array - function that reverses the content 
+ * of an array of integers.
+ * @a: array.
+ * @n: number of elements of the array.
+ * Return: no return.
  */
-void print_most_numbers(void)
-{
-	int i = '0';
 
-	for (; i <= '9'; i++)
+void reverse_array(int *a, int n)
+{
+	int i, j, temp;
+
+	for (i = 0; i < n - 1; i++)
 	{
-		if (i != '2' && i != '4')
-			_putchar(i);
+		for (j = i + 1; j > 0; j--)
+		{
+			temp = *(a + j);
+			*(a + j) = *(a + (j - 1));
+			*(a + (j - 1)) = temp;
+		}
 	}
-	_putchar('\n');
 }
