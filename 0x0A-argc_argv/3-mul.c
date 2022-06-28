@@ -22,6 +22,6 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[2]);
 	sum = num1 * num2;
 
-	printf("%d\n", result);
+	printf("%d\n", sum);
 	return (0);
 }
