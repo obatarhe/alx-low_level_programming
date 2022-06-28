@@ -7,7 +7,7 @@
  * Return: 0 for success
  */
 
-int main(int argc __attribute__((unused)), char *argv[])
+int main (int argc __attribute__((unused)), char *argv[])
 {
 	print("%s\n", argv[0]);
 
