@@ -1,6 +1,7 @@
 #include "stdio.h"
+#include "stdlib.h"
 
-/*
+/**
  * main - this a function to print its name
  * and file path should not be changed
  * @argc: argc parameter
@@ -21,8 +22,6 @@ int main (int argc, char *argv[])
 	num2 = atoi(argv[2]);
 	sum = num1 * num2;
 
-	print("%d\n", result);
+	printf("%d\n", result);
 	return (0);
 }
-
-
