@@ -9,9 +9,9 @@
  * Return: 0 for success
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-        int sum, num1, num2;
+	int sum, num1, num2;
 
 	if (argc != 3)
 	{
