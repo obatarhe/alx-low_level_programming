@@ -8,7 +8,7 @@
  * Return: 0 for success
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int num, j, result = 0;
 	int coins[] = {25, 10, 5, 2, 1};
@@ -17,7 +17,7 @@ int main (int argc, char *argv[])
 	{
 		printf("%s\n", "Error");
 		return (1);
-	
+
 	}
 
 	num = atoi(argv[1]);
