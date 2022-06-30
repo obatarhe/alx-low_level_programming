@@ -2,8 +2,9 @@
 /**
  * print_most_numbers - Prints 0 to 9
  * follow by a new line expect 2 and 4
- * 
+ *
  */
+
 {
 	int num;
 
