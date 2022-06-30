@@ -4,12 +4,14 @@
  * follow by a new line expect 2 and 4
  * 
  */
-void print_most_numbers(void);
 {
-    int x;
+	int num;
 
-    for (x = 0; x <= 9; x++)
-        if (x != 2 && x != 4)
-			_putchar(x);
-    _putchar('\n');
+	for (num = 0; num <= 9; num++)
+	{
+		if (num != 2 && num != 4)
+			_putchar((num % 10) + '0');
+	}
+
+	_putchar('\n');
 }
