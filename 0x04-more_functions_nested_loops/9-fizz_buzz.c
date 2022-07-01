@@ -24,14 +24,8 @@ int main(void)
 			printf("Buzz ");
 
 		else
-			printf("%d", num);
-
-		if (num == 100)
-			continue;
-		printf(" ");
+			printf("%d ", x);
 	}
-
 	printf("\n");
-
 	return (0);
 }
