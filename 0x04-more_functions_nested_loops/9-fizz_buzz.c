@@ -12,20 +12,20 @@
 
 void fizz_buzz(void)
 {
-	int x;
+	int num;
 
-	for (x = 1; x <= 100; x++)
+	for (num = 1; num <= 100; num++)
 	{
-		if ((x % 3 == 0) && (x % 5 == 0))
-			printf("FizzBuzz ");
+		if ((num % 3) == 0 && (num % 5) == 0)
+			printf("FizzBuzz");
 
-		else if (x % 3 == 0)
-			printf("Fizz ");
+		else if ((num % 3) == 0)
+			printf("Fizz");
 
-		else if (x % 5 == 0)
-			printf("Buzz ");
+		else if ((num % 5) == 0)
+			printf("Buzz");
 
 		else
-			printf("%d ", x);
+			printf("%d ", num);
 	}
 }
