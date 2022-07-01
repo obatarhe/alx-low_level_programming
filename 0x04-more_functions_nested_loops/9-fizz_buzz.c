@@ -1,8 +1,14 @@
 #include "stdio.h"
 
 /**
- * fizz_buzz - printing ot 100
- */
+* fizz_buzz - a program that prints the numbers from 1 to 100,
+* followed by a new line. But for multiples of three print Fizz
+* instead of the number and for the multiples of five print Buzz.
+* For numbers which are multiples of both three and five print
+* FizzBuzz.
+*
+*Return: 0 always
+*/
 
 void fizz_buzz(void)
 {
@@ -13,7 +19,7 @@ void fizz_buzz(void)
 		if (x % 3 == 0 && x % 5 == 0)
 			printf("FizzBuzz ");
 		else if (x % 3 == 0)
-			printf("Fizz "):
+			printf("Fizz ");
 		else if (x % 5 == 0)
 			printf("Buzz ");
 		else
