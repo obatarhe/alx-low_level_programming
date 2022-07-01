@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - printing line
- * @n: integer params
- * 
- * Return: 0
+ * print_line - Draws a straight line using the character _.
+ * @n: The number of _ characters to be printed.
  */
 
 void print_line(int n)
