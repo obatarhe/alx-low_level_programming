@@ -2,7 +2,6 @@
 
 /**
 * main - a program that prints the numbers from 1 to 100,
-* @n: is the integer
 *
 *Return: 0 always
 */
