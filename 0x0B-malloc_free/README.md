@@ -1,1 +1,1 @@
-# This is all about dynamic memory allocation
+# This is about Automatic and dynamic allociton fo memory
