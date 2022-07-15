@@ -4,6 +4,8 @@
 /**
  * malloc_checked - checking malloc
  * @b: parameter b
+ * 
+ * Return: A pointer to the allocated memory.
  */
 
 void *malloc_checked(unsigned int b)
