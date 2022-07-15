@@ -4,7 +4,7 @@
 /**
  * malloc_checked - checking malloc
  * @b: parameter b
- * 
+ *
  * Return: A pointer to the allocated memory.
  */
 
