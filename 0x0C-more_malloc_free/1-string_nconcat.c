@@ -7,8 +7,8 @@
  * @s2: The second string/parameter
  * @n: first bytes of s2
  *
- * Return: functions fails return NULL, 
- * n greater/equal to length of s2  
+ * Return: functions fails return NULL,
+ * n greater/equal to length of s2
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
