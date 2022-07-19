@@ -11,10 +11,19 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
+<<<<<<< HEAD
     if (d != NULL)
     {
         (*d).name = name;
         *d).age = age;
         (*d).owner = owner;
         }
+=======
+	if (d != NULL)
+	{
+		(*d).name = name;
+		(*d).age = age;
+		(*d).owner = owner;
+	}
+>>>>>>> 8711d410e40734965fa867b849ebba1c5904b0ba
 }
